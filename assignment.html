@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 flex items-center justify-center min-h-screen">
+  <div class="bg-white shadow-lg rounded-lg p-6 max-w-sm">
+    <div class="text-center">
+      <div class="relative w-full">
+        <img
+          src="https://example.com/headset-image.jpg"
+          alt="Razer Kraken Kitty Edition"
+          class="w-32 h-32 mx-auto"
+        />
+        <span
+          class="absolute -top-4 right-0 bg-blue-100 text-blue-500 px-3 py-1 text-xs font-medium rounded-lg"
+        >
+          Free shipping
+        </span>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-800 mt-4">
+        Razer Kraken Kitty Edt Gaming Headset Quartz
+      </h2>
+      <p class="line-through text-gray-400 text-sm">1,599,-</p>
+      <p class="text-2xl font-bold text-blue-600">799,-</p>
+      <p class="text-xs text-gray-500">
+        The offer is valid until April 3 or as long as stock lasts!
+      </p>
+    </div>
+
+    <div class="mt-6">
+      <button
+        class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-medium"
+      >
+        Add to cart
+      </button>
+    </div>
+    <div class="flex justify-between items-center mt-4">
+      <span class="text-green-500 text-sm font-medium">
+        • 50+ pcs. in stock.
+      </span>
+      <div class="flex gap-3">
+        <button
+          class="bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg flex items-center"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+          Add to cart
+        </button>
+        <button
+          class="bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg flex items-center"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+          </svg>
+          Add to wishlist
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
